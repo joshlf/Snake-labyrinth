@@ -200,36 +200,6 @@ void initTiles() {
  }
  
  randPath(0, 0);
- 
-// xbuffer.add(0);
-// ybuffer.add(0);
-// 
-// for(int i = 0; i < yblocks; i++) {
-//   for(int j = 0; j < xbuffer.size(); j++){
-//     int x = xbuffer.remove(j);
-//     int y = ybuffer.remove(j);
-//     if (x >= xblocks || y >= yblocks)
-//      break;
-//     tiles[x][y] = BLANK;
-//     float rand = random(1);
-//     if(x < xblocks && rand < 0.4) {
-//       xbuffer.add(x + 1);
-//       ybuffer.add(y);
-//     } else if (rand < 0.8) {
-//       xbuffer.add(x);
-//       ybuffer.add(y + 1);
-//     } else {
-//       xbuffer.add(x + 1);
-//       ybuffer.add(y);
-//       xbuffer.add(x);
-//       ybuffer.add(y + 1);
-//     }
-////     if(y < yblocks && random(1) < 0.999) {
-////       xbuffer.add(x);
-////       ybuffer.add(y + 1);
-////     }
-//   }
-// }
 }
 
 void randPath(int i, int j) {
