@@ -1,4 +1,4 @@
 Snake
 ======
 
-A game of snake inside a maze.
+A game of snake played a maze.
