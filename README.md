@@ -1,4 +1,4 @@
-Snake-labyrinth
-===============
+Snake
+======
 
-A game of snake played in a maze
+A game of snake inside a maze.
